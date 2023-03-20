@@ -63,6 +63,7 @@ module.exports = {
         backgroundBlock: "url('/src/assets/img/bg4.jpg')",
         backgroundCatalog: "url('/src/assets/img/bg3.jpg')",
         backgroundPng: "url('/src/assets/img/dopbcg.svg')",
+        backgrundFooter: "url('/src/assets/img/bcg8.jpg')",
       },
     },
   },
