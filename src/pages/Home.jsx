@@ -41,7 +41,7 @@ const Home = () => {
         <Catalog />
       </div>
 
-      <section className="w-full bg-no-repeat bg-cover bg-backgroundFooter py-24 h-auto flex items-center">
+      <section className="w-full bg-no-repeat bg-cover bg-backgroundBlockSecond py-24 h-auto flex items-center">
         <div className="px-[300px] w-full text-white font-Main sm:px-4 md:px-4 lg:px-8 ">
           <div className="text-center">
             <h1 className="text-[50px] mb-10 sm:text-[30px]">Франшиза <span className="text-brownLight">Coffeia</span></h1>
@@ -58,6 +58,83 @@ const Home = () => {
             <div className="text-[20px] text-center">
               <h1 className="text-[60px] text-main font-HandWrite font-HandWriteTitle">24 часа</h1>
               <p className="font-main text-brownLight">Работаем днем и ночью</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* <section>
+        <div className="px-[300px] lg:px-[100px] sm:px-8 lp:px-4 bg-backgroundCatalog w-full h-[900px] bg-cover bg-no-repeat">
+          <div className="items-center justify-center flex sm:justify-center ">
+            <div className="w-20 border-[1px] border-solid border-brown bg-brown h-1 sm:w-10 lp:w-8" />
+            <h1 className="px-4 text-8xl text-brown font-HandWriteTitle  sm:text-[70px]">Отзывы наших гостей</h1>
+            <div className="w-20 border-[1px] border-solid border-brown bg-brown h-1 sm:w-10 lp:w-8" />
+          </div>
+        </div>
+      </section> */}
+      <section className="px-[300px] lg:px-[100px] sm:px-8 lp:px-4 bg-backgroundReviews w-full h-screen bg-cover bg-no-repea items-center justify-center flex" id='reviews'>
+        <div className="rounded-md p-6 text-center">
+          <div className="flex justify-center">
+            <div className="max-w-3xl">
+              <div className="m-4 block rounded-lg bg-backgroundCatalog p-6 shadow-lg">
+                <div>
+                  <div className="mx-auto mb-6 flex w-36 items-center justify-center md:mx-0 md:w-96 sm:w-72 lp:w-[180px] lg:mb-0">
+                    <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.jpg" className="rounded-full shadow-md sm:w-[120px]" alt="woman avatar" />
+                  </div>
+                  <div>
+                    <p className="mb-6 font-light text-neutral-500"> Вкусный и ароматный кофе. Кофе делается из натуральных зерен арабики. Прочла книгу и теперь знаю умные слова
+                    </p>
+                    <p className="mb-2 text-xl font-semibold text-neutral-800"> Анна Хакатонова
+                    </p>
+                    <p className="mb-0 font-semibold text-neutral-500"> Никто и звать никак
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-md p-6 text-center">
+          <div className="flex justify-center">
+            <div className="max-w-3xl">
+              <div className="m-4 block rounded-lg bg-backgroundCatalog p-6 shadow-lg">
+                <div>
+                  <div className="mx-auto mb-6 flex w-36 items-center justify-center md:mx-0 md:w-96 sm:w-72 lp:w-[180px] lg:mb-0">
+                    <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.jpg" className="rounded-full shadow-md sm:w-[120px]" alt="woman avatar" />
+                  </div>
+                  <div>
+                    <p className="mb-6 font-light text-neutral-500"> Вкусный и ароматный кофе. Кофе делается из натуральных зерен арабики. Прочла книгу и теперь знаю умные слова
+                    </p>
+                    <p className="mb-2 text-xl font-semibold text-neutral-800"> Анна Хакатонова
+                    </p>
+                    <p className="mb-0 font-semibold text-neutral-500"> Никто и звать никак
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-md p-6 text-center">
+          <div className="flex justify-center">
+            <div className="max-w-3xl">
+              <div className="m-4 block rounded-lg bg-backgroundCatalog p-6 shadow-lg">
+                <div>
+                  <div className="mx-auto mb-6 flex w-36 items-center justify-center md:mx-0 md:w-96 sm:w-72 lp:w-[180px] lg:mb-0">
+                    <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.jpg" className="rounded-full shadow-md sm:w-[120px]" alt="woman avatar" />
+                  </div>
+                  <div>
+                    <p className="mb-6 font-light text-neutral-500"> Вкусный и ароматный кофе. Кофе делается из натуральных зерен арабики. Прочла книгу и теперь знаю умные слова
+                    </p>
+                    <p className="mb-2 text-xl font-semibold text-neutral-800"> Анна Хакатонова
+                    </p>
+                    <p className="mb-0 font-semibold text-neutral-500"> Никто и звать никак
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
