@@ -16,7 +16,7 @@ const Catalog = () => {
 
                 <div className="flex gap-5 sm:flex-col">
                   <div>
-                    <div className="bg-no-repeat bg-cover bg-backgroundHeader rounded-md w-52 h-40" />
+                    <div className="bg-no-repeat bg-cover bg-backgroundHeader rounded-md w-52 sm:w-full h-40" />
                   </div>
                   <div className="grid gap-2">
                     <div className="flex items-center justify-between">
@@ -29,7 +29,7 @@ const Catalog = () => {
                 </div>
                 <div className="flex gap-5 sm:flex-col">
                   <div>
-                    <div className="bg-no-repeat bg-cover bg-backgroundHeader rounded-md w-52 h-40" />
+                    <div className="bg-no-repeat bg-cover bg-backgroundHeader rounded-md w-52 sm:w-full h-40" />
                   </div>
                   <div className="grid gap-2">
                     <div className="flex items-center justify-between">
@@ -42,7 +42,7 @@ const Catalog = () => {
                 </div>
                 <div className="flex gap-5 sm:flex-col">
                   <div>
-                    <div className="bg-no-repeat bg-cover bg-backgroundHeader rounded-md w-52 h-40" />
+                    <div className="bg-no-repeat bg-cover bg-backgroundHeader rounded-md w-52 sm:w-full h-40" />
                   </div>
                   <div className="grid gap-2">
                     <div className="flex items-center justify-between">
@@ -58,7 +58,7 @@ const Catalog = () => {
               <div className="gap-5 grid">
                 <div className="flex gap-5 sm:flex-col">
                   <div>
-                    <div className="bg-no-repeat bg-cover bg-backgroundHeader rounded-md w-52 h-40" />
+                    <div className="bg-no-repeat bg-cover bg-backgroundHeader rounded-md w-52 sm:w-full h-40" />
                   </div>
                   <div className="grid gap-2">
                     <div className="flex items-center justify-between">
@@ -71,7 +71,7 @@ const Catalog = () => {
                 </div>
                 <div className="flex gap-5 sm:flex-col">
                   <div>
-                    <div className="bg-no-repeat bg-cover bg-backgroundHeader rounded-md w-52 h-40" />
+                    <div className="bg-no-repeat bg-cover bg-backgroundHeader rounded-md w-52 sm:w-full h-40" />
                   </div>
                   <div className="grid gap-2">
                     <div className="flex items-center justify-between">
@@ -84,7 +84,7 @@ const Catalog = () => {
                 </div>
                 <div className="flex gap-5 sm:flex-col">
                   <div>
-                    <div className="bg-no-repeat bg-cover bg-backgroundHeader rounded-md w-52 h-40" />
+                    <div className="bg-no-repeat bg-cover bg-backgroundHeader rounded-md w-52 sm:w-full h-40" />
                   </div>
                   <div className="grid gap-2">
                     <div className="flex items-center justify-between">

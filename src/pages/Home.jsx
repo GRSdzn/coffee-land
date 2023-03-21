@@ -15,7 +15,7 @@ const Home = () => {
               <i className="text-main top-2 text-[20px] font-Main">Коффе сделан из натуральных зерен и привезен с Италии Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, corrupti ratione? Fuga, numquam. Soluta, dolore recusandae minima amet magni neque ducimus nihil fugit ratione perferendis obcaecati blanditiis nulla placeat molestiae?</i>
             </div>
           </div>
-          <div className="flex justify-end px-[300px]  sm:justify-center">
+          <div className="flex justify-end px-[300px] sm:px-14 sm:justify-center">
             <h1 type='tel' className="absolute top-[95vh] font-Main text-gray-500 animate-pulse">+7 999 (432)-12-23</h1>
           </div>
         </div>

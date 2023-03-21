@@ -11,9 +11,9 @@ export const AboutUs = () => {
         <div className="px-[300px] lg:px-[100px] sm:px-8 lp:px-4 bg-backgroundPng w-full h-full bg-no-repeat bg-right flex items-center justify-end">
           <div>
             <div className="flex flex-col py-20">
-              <div className="items-center flex">
+              <div className="items-center flex sm:justify-center">
                 <div className="w-20 border-[1px] border-solid border-brown bg-brown h-1 sm:w-10 lp:w-8" />
-                <h1 className="px-4 text-right text-8xl text-brown font-HandWriteTitle sm:text-[40px]">О нас</h1>
+                <h1 className="px-4 text-right text-8xl text-brown font-HandWriteTitle  sm:text-[40px]">О нас</h1>
                 <div className="w-20 border-[1px] border-solid border-brown bg-brown h-1 sm:w-10 lp:w-8" />
               </div>
               <div className="font-Main">
