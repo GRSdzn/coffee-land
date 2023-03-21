@@ -7,14 +7,8 @@ const Header = () => {
   return (
     <div className="absolute text-main w-full px-[300px] flex items-center justify-between py-8 sm:px-8 lp:px-4 lg:px-20">
       <ul className="flex items-center gap-x-8">
-        <Link to="/"> <img src={Logo} alt="" className="hover:filter hover:sepia duration-300" /></Link>
-        <Link activeClass="active"
-          to="main"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={500}
-          className=" hover:text-navHover duration-300 focus:border-navHover focus:text-navHover focus:border-b-[1px] cursor-pointer">Главная</Link>
+        <a href="/"> <img src={Logo} alt="" className="hover:filter hover:sepia duration-300" /></a>
+        <a href="/" className=" hover:text-navHover duration-300 focus:border-navHover focus:text-navHover focus:border-b-[1px] cursor-pointer">Главная</a>
       </ul>
       <nav>
         <section className="MOBILE-MENU flex">
@@ -53,7 +47,7 @@ const Header = () => {
                   spy={true}
                   smooth={true}
                   offset={0}
-                  duration={500}
+                  duration={200}
                   className="hover:text-navHover duration-300 focus:border-navHover focus:text-navHover focus:border-b-[1px]  cursor-pointer">Прайс-лист</Link>
               </li>
               <li className="">
@@ -63,7 +57,7 @@ const Header = () => {
                   spy={true}
                   smooth={true}
                   offset={0}
-                  duration={500}
+                  duration={200}
                   className="hover:text-navHover duration-300 focus:border-navHover focus:text-navHover focus:border-b-[1px]  cursor-pointer">Отзывы</Link>
               </li>
               <li className="">
@@ -73,7 +67,7 @@ const Header = () => {
                   spy={true}
                   smooth={true}
                   offset={0}
-                  duration={500}
+                  duration={200}
                   className="hover:text-navHover duration-300 focus:border-navHover focus:text-navHover focus:border-b-[1px]  cursor-pointer">О нас</Link>
               </li>
               <li className="">
@@ -83,7 +77,7 @@ const Header = () => {
                   spy={true}
                   smooth={true}
                   offset={0}
-                  duration={500}
+                  duration={200}
                   className="hover:text-navHover duration-300 focus:border-navHover focus:text-navHover focus:border-b-[1px]  cursor-pointer">Контакты</Link>
               </li>
             </ul>
@@ -98,7 +92,7 @@ const Header = () => {
             spy={true}
             smooth={true}
             offset={0}
-            duration={500}
+            duration={200}
             className="hover:text-navHover duration-300 focus:border-navHover focus:text-navHover focus:border-b-[1px]  cursor-pointer">Прайс-лист</Link>
           <Link
             activeClass="active"
@@ -106,7 +100,7 @@ const Header = () => {
             spy={true}
             smooth={true}
             offset={0}
-            duration={500}
+            duration={200}
             className="hover:text-navHover duration-300 focus:border-navHover focus:text-navHover focus:border-b-[1px]  cursor-pointer">Отзывы</Link>
           <Link
             activeClass="active"
@@ -114,7 +108,7 @@ const Header = () => {
             spy={true}
             smooth={true}
             offset={0}
-            duration={500}
+            duration={200}
             className="hover:text-navHover duration-300 focus:border-navHover focus:text-navHover focus:border-b-[1px]  cursor-pointer">О нас</Link>
           <Link
             activeClass="active"
@@ -122,7 +116,7 @@ const Header = () => {
             spy={true}
             smooth={true}
             offset={0}
-            duration={500}
+            duration={200}
             className="hover:text-navHover duration-300 focus:border-navHover focus:text-navHover focus:border-b-[1px]  cursor-pointer">Контакты</Link>
         </ul>
       </nav>

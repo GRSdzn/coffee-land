@@ -41,14 +41,24 @@ const Home = () => {
         <Catalog />
       </div>
 
-      <section className="w-full bg-no-repeat bg-cover bg-backgrundFooter py-20 h-[500px] flex items-center">
-        <div className="px-20 max-w-[900px] text-white font-Main sm:px-8 lp:px-4">
-          <div>
-            <h1 className="text-[50px] leading-[50px] mb-10 sm:text-[30px]">Лучшие истории рассказывают за чашечкой кофе</h1>
+      <section className="w-full bg-no-repeat bg-cover bg-backgroundFooter py-24 h-auto flex items-center">
+        <div className="px-[300px] w-full text-white font-Main sm:px-4 md:px-4 lg:px-8 ">
+          <div className="text-center">
+            <h1 className="text-[50px] mb-10 sm:text-[30px]">Франшиза <span className="text-brownLight">Coffeia</span></h1>
           </div>
-          <div className="text-[20px] text-center">
-            <h1>1000+</h1>
-            <p>Посетителей ежедневно</p>
+          <div className="flex flex-wrap justify-between sm:justify-center sm:content-center sm:flex-col">
+            <div className="text-[20px] text-center">
+              <h1 className="text-[60px] text-main font-HandWrite font-HandWriteTitle">1000 +</h1>
+              <p className="font-main text-brownLight">Посетителей ежедневно</p>
+            </div>
+            <div className="text-[20px] text-center">
+              <h1 className="text-[60px] text-main font-HandWrite font-HandWriteTitle">Доставка</h1>
+              <p className="font-main text-brownLight">Осуществляется бесплатно <br />при заказе от 300 рублей</p>
+            </div>
+            <div className="text-[20px] text-center">
+              <h1 className="text-[60px] text-main font-HandWrite font-HandWriteTitle">24 часа</h1>
+              <p className="font-main text-brownLight">Работаем днем и ночью</p>
+            </div>
           </div>
         </div>
       </section>

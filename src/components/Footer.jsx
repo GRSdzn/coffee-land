@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 function Footer() {
   return (
     <>
-      <footer className="px-20 sm:px-0 py-4 bg-backgrundFooter">
+      <footer className="px-20 sm:px-0 py-4 bg-backgroundFooter">
         <div className="container mx-auto p-4 md:px-6 md:py-8">
           <div className="lp:flex-col sm:justify-between">
             <Link to="/" className="flex items-center mb-4 sm:mb-0">
@@ -56,7 +56,7 @@ function Footer() {
             </ul>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© <a href="https://flowbite.com/" className="hover:underline">Coffeia</a> Все права соблюдены.</span>
+          <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© <a className="hover:underline">Coffeia</a> Все права соблюдены.</span>
         </div>
       </footer>
 
