@@ -72,7 +72,7 @@ const Home = () => {
           </div>
         </div>
       </section> */}
-      <section className="px-[300px] lg:px-[100px] sm:px-8 lp:px-4 bg-backgroundReviews w-full h-screen bg-cover bg-no-repea items-center justify-center flex" id='reviews'>
+      <section className="px-[300px] lg:px-[100px] sm:px-8 lp:px-4 bg-backgroundReviews w-full bg-cover bg-no-repea items-center justify-center flex md:flex-col" id='reviews'>
         <div className="rounded-md p-6 text-center">
           <div className="flex justify-center">
             <div className="max-w-3xl">
