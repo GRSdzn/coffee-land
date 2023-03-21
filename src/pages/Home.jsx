@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../assets/img/Title.svg'
-import { AboutUs } from '../components/aboutUs'
-import Catalog from '../components/catalog'
+import { AboutUs } from '../components/AboutUs'
+import Catalog from '../components/Сatalog'
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
             <img src={Title} alt="" />
             <h1 className="text-main mt-8 mb-2 text-[30px] font-Main lg:mt-30">Лучший кофейный ресторан</h1>
             <div className="max-w-xl">
-              <i className="text-main top-2 text-[20px] font-Main">Коффе сделан из натуральных зерен и привезен с Италии Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, corrupti ratione? Fuga, numquam. Soluta, dolore recusandae minima amet magni neque ducimus nihil fugit ratione perferendis obcaecati blanditiis nulla placeat molestiae?</i>
+              <i className="text-main top-2 text-[20px] font-Main">Порадуйте свой вкус и бодрость с каждой чашкой - наш сайт предлагает самые ароматные и качественные зерна кофе из лучших уголков мира!</i>
             </div>
           </div>
           <div className="flex justify-end px-[300px] sm:px-14 sm:justify-center">
@@ -20,13 +20,13 @@ const Home = () => {
           </div>
         </div>
         <div className="w-full h-[100vh] bg-no-repeat bg-cover bg-backgroundHeader" />
-
-        {/* <div className="bg-main max-w-[150px] h-[70px] flex justify-center rounded-tr-3xl rounded-bl-3xl  outline outline-offset-4 text-center items-center outline-beige">
-            <h1 className="text-brown font-Main text-[24px] font-bold">Кофе</h1> */}
       </div>
-      <AboutUs />
 
-      <section className="w-full bg-no-repeat  bg-cover bg-backgroundBlock py-20 h-[500px] flex items-center">
+      <div id='aboutUs'>
+        <AboutUs />
+      </div>
+
+      <section className="w-full bg-no-repeat bg-cover bg-backgroundBlock py-20 h-[500px] flex items-center">
         <div className="px-20 max-w-[900px] text-white font-Main sm:px-8 lp:px-4">
           <div>
             <h1 className="text-[50px] leading-[50px] mb-10 sm:text-[30px]">Лучшие истории рассказывают за чашечкой кофе</h1>
@@ -37,7 +37,21 @@ const Home = () => {
         </div>
       </section>
 
-      <Catalog />
+      <div id='priceList'>
+        <Catalog />
+      </div>
+
+      <section className="w-full bg-no-repeat bg-cover bg-backgrundFooter py-20 h-[500px] flex items-center">
+        <div className="px-20 max-w-[900px] text-white font-Main sm:px-8 lp:px-4">
+          <div>
+            <h1 className="text-[50px] leading-[50px] mb-10 sm:text-[30px]">Лучшие истории рассказывают за чашечкой кофе</h1>
+          </div>
+          <div className="text-[20px] text-center">
+            <h1>1000+</h1>
+            <p>Посетителей ежедневно</p>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
