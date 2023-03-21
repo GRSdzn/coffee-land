@@ -63,15 +63,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* <section>
-        <div className="px-[300px] lg:px-[100px] sm:px-8 lp:px-4 bg-backgroundCatalog w-full h-[900px] bg-cover bg-no-repeat">
-          <div className="items-center justify-center flex sm:justify-center ">
-            <div className="w-20 border-[1px] border-solid border-brown bg-brown h-1 sm:w-10 lp:w-8" />
-            <h1 className="px-4 text-8xl text-brown font-HandWriteTitle  sm:text-[70px]">Отзывы наших гостей</h1>
-            <div className="w-20 border-[1px] border-solid border-brown bg-brown h-1 sm:w-10 lp:w-8" />
-          </div>
-        </div>
-      </section> */}
       <section className="px-[300px] lg:px-[100px] sm:px-8 lp:px-4 bg-backgroundReviews w-full bg-cover bg-no-repea items-center justify-center flex md:flex-col" id='reviews'>
         <div className="rounded-md p-6 text-center">
           <div className="flex justify-center">
