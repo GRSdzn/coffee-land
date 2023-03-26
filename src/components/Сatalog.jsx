@@ -3,7 +3,7 @@ import React from 'react'
 const Catalog = () => {
   return (
     <>
-      <section className="w-full items-center justify-center flex bg-no-repeat bg-cover bg-fixed bg-backgroundCatalog py-20">
+      <section className="w-full items-center justify-center flex bg-no-repeat bg-cover bg-fixed bg-backgroundCatalog py-20" id='priceList'>
         <div className="px-[300px] py-20 lg:px-[100px] sm:px-8 lp:px-4">
           <div className="items-center flex py-8 lg:justify-center">
             <div className="w-20 border-[1px] border-solid border-brown bg-brown h-1 sm:w-10 lp:w-8" />

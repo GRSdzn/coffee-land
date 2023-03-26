@@ -7,8 +7,8 @@ import map from '../assets/img/map.svg'
 export const AboutUs = () => {
   return (
     <div>
-      <section className="w-full bg-no-repeat h-screen bg-cover bg-backgroundSecond bg-center  max-w-full min-w-fit lg:justify-center flex justify-end">{/* О нас */}
-        <div className="px-[300px] lg:px-[100px] sm:px-8 lp:px-4 bg-backgroundPng w-full h-full bg-no-repeat bg-right flex items-center justify-end sm:flex-col sm:justify-center">
+      <section className="w-full bg-no-repeat h-screen xl:h-fit bg-cover bg-backgroundSecond bg-center  max-w-full min-w-fit lg:justify-center flex justify-end">{/* О нас */}
+        <div className="px-[300px] lg:px-[100px] sm:px-8 lp:px-4 bg-backgroundPng w-full bg-no-repeat bg-right flex items-center justify-end sm:flex-col sm:justify-center">
           <div>
             <div className="flex flex-col py-20 ">
               <div className="items-center flex sm:justify-center">

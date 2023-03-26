@@ -8,7 +8,7 @@ const Header = () => {
     <div className="absolute text-main w-full px-[300px] flex items-center justify-between py-8 sm:px-8 lp:px-4 lg:px-20">
       <ul className="flex items-center gap-x-8">
         <a href="/"> <img src={Logo} alt="" className="hover:filter hover:sepia duration-300" /></a>
-        <a href="/" className=" hover:text-navHover duration-300 focus:border-navHover focus:text-navHover focus:border-b-[1px] cursor-pointer">Главная</a>
+        <a href="/" className=" hover:text-navHover duration-300 focus:border-navHover focus:text-navHover focus:border-b-[1px] cursor-pointer lg:text-[40px]">Главная</a>
       </ul>
       <nav>
         <section className="MOBILE-MENU flex">

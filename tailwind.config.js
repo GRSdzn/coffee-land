@@ -66,6 +66,7 @@ module.exports = {
         backgroundFooter: "url('/src/assets/img/bcg8.jpg')",
         backgroundBlockSecond: "url('/src/assets/img/bgblocksecond.jpg')",
         backgroundReviews: "url('/src/assets/img/reviews.jpg')",
+        backgroundContacts: "url('/src/assets/img/contacts.jpg')",
       },
     },
   },

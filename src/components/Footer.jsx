@@ -12,7 +12,7 @@ function Footer() {
               <img src={Logo} className="h-8 mr-3" alt="Coffeia" />
               <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Coffeia</span>
             </Link>
-            <ul className="flex flex-wrap lp:items-start items-center mb-6 text-sm lp:flex-col text-main lp:mb-0 dark:text-gray-400 mt-8">
+            <ul className="flex flex-wrap lp:items-start items-center mb-6 text-sm lp:flex-col text-main lp:mb-0 mt-8">
               <li>
                 <Link
                   activeClass="active"
@@ -55,8 +55,8 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© <a className="hover:underline">Coffeia</a> Все права соблюдены.</span>
+          <hr className="my-6 border-brown sm:mx-auto lg:my-8" />
+          <span className="block text-sm text-gray-500 sm:text-center ">© <a className="hover:underline">Coffeia</a> Все права соблюдены.</span>
         </div>
       </footer>
 
