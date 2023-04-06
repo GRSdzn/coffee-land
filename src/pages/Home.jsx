@@ -13,9 +13,9 @@ const Home = () => {
           <div className="top-[300px] absolute px-[300px] lg:px-[100px] lg:top-[200px] sm:px-8 lp:px-4 lp:text-center">
             <div className="lg:mt-14">
               <img src={Title} alt="" />
-              <h1 className="text-main mt-8 mb-2 text-[30px] font-Main lg:text-[55px]">Лучший кофейный ресторан</h1>
+              <h1 className="text-main mt-8 mb-2 text-[30px] font-Main lg:text-[30px]">Лучший кофейный ресторан</h1>
               <div className="max-w-xl">
-                <i className="text-main top-2 text-[20px] font-Main lg:text-[40px]">Порадуйте свой вкус и бодрость с каждой чашкой - наш сайт предлагает самые ароматные и качественные зерна кофе из лучших уголков мира!</i>
+                <i className="text-main top-2 text-[20px] font-Main lg:text-[20px]">Порадуйте свой вкус и бодрость с каждой чашкой - наш сайт предлагает самые ароматные и качественные зерна кофе из лучших уголков мира!</i>
               </div>
             </div>
           </div>

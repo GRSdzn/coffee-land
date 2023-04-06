@@ -84,7 +84,7 @@ const Header = () => {
           </div>
         </section>
 
-        <ul className="lg:hidden gap-x-8 flex-wrap flex nav text-main">
+        <ul className="lg:hidden gap-x-8 flex-wrap flex text-main">
 
           <Link
             activeClass="active"
