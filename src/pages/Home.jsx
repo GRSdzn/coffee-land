@@ -1,9 +1,9 @@
 import React from 'react'
 import Title from '../assets/img/Title.svg'
-import { AboutUs } from '../components/AboutUs'
 import { Contacts } from '../components/Contacts'
 import { Reviews } from '../components/Reviews'
 import Catalog from '../components/Сatalog'
+import { AboutUs } from './../components/aboutUs';
 
 const Home = () => {
   return (
